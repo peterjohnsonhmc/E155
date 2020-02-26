@@ -1,0 +1,13 @@
+
+State Machine - |lab3_PJ|levelToPulse:lvlPlsConverter|state
+Name state.S0 state.S2 state.S1 
+state.S0 0 0 0 
+state.S1 1 0 1 
+state.S2 1 1 0 
+
+State Machine - |lab3_PJ|scannerFSM:scanner|state
+Name state.S3 state.S2 state.S1 state.S0 
+state.S0 0 0 0 0 
+state.S1 0 0 1 1 
+state.S2 0 1 0 1 
+state.S3 1 0 0 1 

@@ -1,0 +1,21 @@
+
+State Machine - |aes|aes_core:core|controllerFSM:control|s
+Name s.S11 s.S10 s.S9 s.S8 s.S7 s.S6 s.S5 s.S4 s.S3 s.S2 s.S1 s.S0 
+s.S0 0 0 0 0 0 0 0 0 0 0 0 0 
+s.S1 0 0 0 0 0 0 0 0 0 0 1 1 
+s.S2 0 0 0 0 0 0 0 0 0 1 0 1 
+s.S3 0 0 0 0 0 0 0 0 1 0 0 1 
+s.S4 0 0 0 0 0 0 0 1 0 0 0 1 
+s.S5 0 0 0 0 0 0 1 0 0 0 0 1 
+s.S6 0 0 0 0 0 1 0 0 0 0 0 1 
+s.S7 0 0 0 0 1 0 0 0 0 0 0 1 
+s.S8 0 0 0 1 0 0 0 0 0 0 0 1 
+s.S9 0 0 1 0 0 0 0 0 0 0 0 1 
+s.S10 0 1 0 0 0 0 0 0 0 0 0 1 
+s.S11 1 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |aes|aes_core:core|levelToPulse:lvp|state
+Name state.S0 state.S2 state.S1 
+state.S0 0 0 0 
+state.S1 1 0 1 
+state.S2 1 1 0 

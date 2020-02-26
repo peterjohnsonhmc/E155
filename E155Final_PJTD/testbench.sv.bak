@@ -1,0 +1,16 @@
+module testbench();
+ logic clk;
+ logic hsync, vsync, r, g, b;
+
+	// instantiate device under test
+	vga dut(clk,hsync, vsync,r, g, b);
+
+	// generate clock
+	// Clock has period of 10 units. High for 5, low for 5.
+	always
+		begin
+			clk=1; #5; clk=0; #5;
+		end
+ 
+	
+endmodule 

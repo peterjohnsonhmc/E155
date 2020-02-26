@@ -1,0 +1,242 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/pjohnson/Desktop/vgatest
+vchargenrom
+Z0 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z1 !s110 1544413406
+!i10b 1
+!s100 9_IQ]1603SzdH;R?XFjGk0
+Iad_2I]f?Gn?D<hXjW_7z=2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 !s105 VGA_sv_unit
+S1
+Z4 dC:/Users/pjohnson/Desktop/E155Final_PJTD
+Z5 w1544413140
+Z6 8C:/Users/pjohnson/Desktop/E155Final_PJTD/VGA.sv
+Z7 FC:/Users/pjohnson/Desktop/E155Final_PJTD/VGA.sv
+L0 132
+Z8 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z9 !s108 1544413406.000000
+Z10 !s107 C:/Users/pjohnson/Desktop/E155Final_PJTD/VGA.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pjohnson/Desktop/E155Final_PJTD/VGA.sv|
+!i113 1
+Z12 o-work work -sv
+vmegaflop
+R0
+R1
+!i10b 1
+!s100 4]mXEh9i`QDd43bn^m@o01
+IR9VTEd@afRza5n_@7blT42
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 152
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vmsgSel
+R0
+R1
+!i10b 1
+!s100 Wab?]G>md4H52B3@o9Wn]3
+IkjF8ibj^eVG`2DgN_Xd]a2
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 172
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+nmsg@sel
+vPLLVGA
+R1
+!i10b 1
+!s100 H45]QLTGKm7i>;Lj82=2V3
+IKI@En;V7P93Z;3d19eY]81
+R2
+R4
+Z13 w1544401419
+8C:/Users/pjohnson/Desktop/E155Final_PJTD/PLLVGA_bb.v
+FC:/Users/pjohnson/Desktop/E155Final_PJTD/PLLVGA_bb.v
+L0 34
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/pjohnson/Desktop/E155Final_PJTD/PLLVGA_bb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/pjohnson/Desktop/E155Final_PJTD/PLLVGA_bb.v|
+!i113 1
+o-work work
+n@p@l@l@v@g@a
+vtestbench
+R0
+R1
+!i10b 1
+!s100 U6U0>0R<OXd>O2GakBd]Q0
+IPZ_7S6>U8zIR_TMZhe5mf3
+R2
+!s105 testbench_sv_unit
+S1
+R4
+R13
+8C:/Users/pjohnson/Desktop/E155Final_PJTD/testbench.sv
+FC:/Users/pjohnson/Desktop/E155Final_PJTD/testbench.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/pjohnson/Desktop/E155Final_PJTD/testbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pjohnson/Desktop/E155Final_PJTD/testbench.sv|
+!i113 1
+R12
+vVGA
+R0
+R1
+!i10b 1
+!s100 a1Mok^Ye4TToN]G]FoQ;;0
+I`CMRhlEA;O4K1moMf8zC:3
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 13
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+n@v@g@a
+vvga_core
+R0
+R1
+!i10b 1
+!s100 1M16EoRT3KTX[iKH;V=Dj0
+IzHlCNFZ_P26R`JAL;09KA3
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 51
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vvga_spi
+R0
+R1
+!i10b 1
+!s100 TAB^UONX?JS<[2z0AT^9b0
+I`[Z`m8^JZhC8FiL@R0gNX1
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 39
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vvgaController
+R0
+R1
+!i10b 1
+!s100 `SEiWfU5M24NB:_:46XA;2
+IF3l3T;jjhzVk?BP2FzZX`1
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 79
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+nvga@controller
+vvideoGen
+R0
+R1
+!i10b 1
+!s100 26Ef3T]dc8U]OZc;N3JPA0
+IWl@VQIPMdn[?^eTakIeYC1
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 113
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+nvideo@gen

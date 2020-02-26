@@ -1,0 +1,5 @@
+PLL_Name	vga_core:vga|PLLVGA:PLLVGA_inst|altpll:altpll_component|PLLVGA_altpll:auto_generated|pll1
+PLLJITTER	41
+PLLSPEmax	84
+PLLSPEmin	-53
+
